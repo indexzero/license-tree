@@ -1,6 +1,6 @@
 {
   "name": "license-tree",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Read a tree of files and check for licenses.",
   "main": "index.js",
   "scripts": {
