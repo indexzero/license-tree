@@ -1,0 +1,35 @@
+{
+  "name": "license-tree",
+  "version": "0.0.0",
+  "description": "Read a tree of files and check for licenses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indexzero/license-tree.git"
+  },
+  "keywords": [
+    "opensource",
+    "osi",
+    "licenses"
+  ],
+  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indexzero/license-tree/issues"
+  },
+  "homepage": "https://github.com/indexzero/license-tree#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "diagnostics": "^1.0.1",
+    "licenses": "0.0.20",
+    "recursive-readdir": "^2.1.0"
+  },
+  "devDependencies": {
+    "assume": "^1.4.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.0"
+  }
+}
